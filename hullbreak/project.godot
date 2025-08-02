@@ -11,8 +11,19 @@ config_version=5
 [application]
 
 config/name="Hullbreak"
+run/main_scene="uid://s11ao4fefxck"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://scripts/Global.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=416
+window/stretch/mode="viewport"
 
 [editor_plugins]
 
