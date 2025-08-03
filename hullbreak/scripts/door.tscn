@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvlt76xusq4h2"]
+
+[ext_resource type="Texture2D" uid="uid://dgc8pt7kdds3q" path="res://art/test_tile.png" id="1_28mks"]
+[ext_resource type="Script" uid="uid://bca8ugmnyq7l7" path="res://door.gd" id="2_j7ltb"]
+
+[node name="door" type="Sprite2D" groups=["tile"]]
+modulate = Color(0.430971, 0.866285, 0.863463, 1)
+texture = ExtResource("1_28mks")
+script = ExtResource("2_j7ltb")

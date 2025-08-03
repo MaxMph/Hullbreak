@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bhnsk603ytc5m" path="res://player.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://wacbdktu856o" path="res://scripts/wall.tscn" id="3_h2yge"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h2yge"]
 texture = ExtResource("1_ig7tw")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -14,7 +14,7 @@ texture_region_size = Vector2i(32, 32)
 
 [sub_resource type="TileSet" id="TileSet_h2yge"]
 tile_size = Vector2i(32, 32)
-sources/0 = SubResource("TileSetAtlasSource_0xm2m")
+sources/0 = SubResource("TileSetAtlasSource_h2yge")
 
 [node name="main" type="Node2D"]
 

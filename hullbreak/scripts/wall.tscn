@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://ddyo2q6mxyaap" path="res://tile.gd" id="2_f4vry"]
 
 [node name="wall" type="Sprite2D" groups=["tile"]]
-modulate = Color(0.442911, 0.442911, 0.442911, 1)
+modulate = Color(0.18359, 0.18359, 0.18359, 1)
 texture = ExtResource("1_udqtd")
 script = ExtResource("2_f4vry")
 collision = true

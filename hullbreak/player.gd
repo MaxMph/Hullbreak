@@ -23,7 +23,7 @@ func _process(delta: float) -> void:
 	can_move = true
 	if global_position != target_pos:
 		global_position = global_position.move_toward(target_pos, speed * delta)
-		print(global_position)
+		#print(global_position)
 		can_move = false
 	#if InternalMode.is
 	
