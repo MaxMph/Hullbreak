@@ -20,3 +20,11 @@ Today I started work on the map generation. unfortunatly it didnt go all that we
 I also did some ui stuff but I ended up deleating it since I wanted to focus on it later.
 
 time: 2.2h
+
+------------------------------------------------------------------------
+
+Day 3:
+
+I restarted the map gen, and continued to struggle, this is taking longer than i hoped. I tried a few different things, but I keep realizing majorn issues with my strategies which cause me to either largely change or rewrite whe whole script. I think im moving toward somthing usable, but even once its done and working its not going to be very good, and its going to be a pain to work with. if I have time later I might redo it again, or at least make some big changes, but for now I need to just aim for a mvp.
+
+time: 2.1h
