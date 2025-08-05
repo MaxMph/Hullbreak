@@ -28,3 +28,9 @@ Day 3:
 I restarted the map gen, and continued to struggle, this is taking longer than i hoped. I tried a few different things, but I keep realizing majorn issues with my strategies which cause me to either largely change or rewrite whe whole script. I think im moving toward somthing usable, but even once its done and working its not going to be very good, and its going to be a pain to work with. if I have time later I might redo it again, or at least make some big changes, but for now I need to just aim for a mvp.
 
 time: 2.1h
+
+Day 4:
+
+today I started work on the combat. I got shooting working, at first I was thinking about doing a projectile, but I decided I wanted hitscan instead. I figured I could use a raycast since thats how I have done hitscan in the past, but since I am doing my own collisions that wouldnt work. instead I made something that has a similar result to raycast by cycling through tiles in a givin direction. I make a line 2d that turns gets its points removed in 0.1 seconds for the visual of shooting. this ended up having a tone of bugs, some relating to varios uses of global_position, position, and writen vectors that caused some weird effects, its all working now though and I feel a little more confident in my understanding of the line2d node in godot.
+
+tume: 1.15h

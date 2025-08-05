@@ -23,6 +23,10 @@ offset_bottom = 40.0
 layout_mode = 2
 text = "Energy: 0"
 
+[node name="ammo" type="Label" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+text = "Ammo: 0"
+
 [node name="Label2" type="Label" parent="CanvasLayer/VBoxContainer"]
 layout_mode = 2
 
@@ -32,3 +36,13 @@ layout_mode = 2
 text = "I - inventory"
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(0, -1)
+width = 2.0
+
+[node name="Timer" type="Timer" parent="Line2D"]
+wait_time = 0.1
+one_shot = true
+
+[connection signal="timeout" from="Line2D/Timer" to="." method="_on_timer_timeout"]

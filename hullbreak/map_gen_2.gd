@@ -93,7 +93,7 @@ func make_hall2(cell):
 		for i in _range:
 			print(i)
 			#Global.find_tile()
-			var tile =  Global.find_tile(Vector2(cell2pos(cell.x) + align(i, cell_size), cell2pos(cell.y)))
+			var tile =  Global.find_tile(Vector2(cell2pos(cell.x) + align(cell_size/2 + i, cell_size), cell2pos(cell.y)))
 			if tile != null:
 				get_tree().queue_delete(tile)
 	#for i in range(cell_size):
