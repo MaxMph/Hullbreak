@@ -34,3 +34,9 @@ Day 4:
 today I started work on the combat. I got shooting working, at first I was thinking about doing a projectile, but I decided I wanted hitscan instead. I figured I could use a raycast since thats how I have done hitscan in the past, but since I am doing my own collisions that wouldnt work. instead I made something that has a similar result to raycast by cycling through tiles in a givin direction. I make a line 2d that turns gets its points removed in 0.1 seconds for the visual of shooting. this ended up having a tone of bugs, some relating to varios uses of global_position, position, and writen vectors that caused some weird effects, its all working now though and I feel a little more confident in my understanding of the line2d node in godot.
 
 tume: 1.15h
+
+day 5:
+
+man, I might be cooked... I started working on the generator, which will be the core of the game loop, then I started redoing the generation again... im going for a room preset aproach. I havent had very much time the last few days and idk if I will be able to finnish it in time. I still need to finish generation,make enemies (wich I have no clue how I will do) make random enemy and loot spawns, make menus for the interactions as well as main menu, and probably a save system. I also need to do art and sound... I think the time I have spent on this so far might go to waste :(
+
+time: 1.1h

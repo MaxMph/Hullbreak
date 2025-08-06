@@ -36,6 +36,7 @@ layout_mode = 2
 text = "I - inventory"
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.2, 0.2)
 
 [node name="Line2D" type="Line2D" parent="."]
 points = PackedVector2Array(0, -1)
