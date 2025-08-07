@@ -7,9 +7,6 @@
 [node name="wall7" parent="." instance=ExtResource("1_2otyv")]
 position = Vector2(-128, -128)
 
-[node name="wall37" parent="." instance=ExtResource("1_2otyv")]
-position = Vector2(-96, -96)
-
 [node name="wall8" parent="." instance=ExtResource("1_2otyv")]
 position = Vector2(-128, 128)
 

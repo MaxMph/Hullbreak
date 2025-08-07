@@ -1,0 +1,247 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx0a8tlbb3i21"]
+
+[ext_resource type="PackedScene" uid="uid://wacbdktu856o" path="res://scripts/wall.tscn" id="1_g42tb"]
+
+[node name="room 1" type="Node2D"]
+
+[node name="wall7" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, -128)
+
+[node name="wall8" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, 128)
+
+[node name="wall25" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, -128)
+
+[node name="wall26" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, 128)
+
+[node name="wall27" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, -128)
+
+[node name="wall28" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, 128)
+
+[node name="wall29" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, -128)
+
+[node name="wall30" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, 128)
+
+[node name="wall31" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, -128)
+
+[node name="wall32" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, 128)
+
+[node name="wall33" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, -128)
+
+[node name="wall34" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, 128)
+
+[node name="wall35" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, -128)
+
+[node name="wall36" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, 128)
+
+[node name="wall9" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, -128)
+
+[node name="wall13" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, -96)
+
+[node name="wall14" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, -96)
+
+[node name="wall15" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, -64)
+
+[node name="wall16" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, -64)
+
+[node name="wall17" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, -32)
+
+[node name="wall18" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, -32)
+
+[node name="wall19" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, 32)
+
+[node name="wall20" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, 32)
+
+[node name="wall21" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, 64)
+
+[node name="wall22" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, 64)
+
+[node name="wall23" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, 96)
+
+[node name="wall24" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, 96)
+
+[node name="wall10" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, 128)
+
+[node name="wall11" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, -128)
+
+[node name="wall37" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, -96)
+
+[node name="wall38" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, -96)
+
+[node name="wall39" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, -96)
+
+[node name="wall40" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, -96)
+
+[node name="wall41" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, -96)
+
+[node name="wall42" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, -96)
+
+[node name="wall43" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, -96)
+
+[node name="wall44" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, -64)
+
+[node name="wall45" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, -64)
+
+[node name="wall46" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, -64)
+
+[node name="wall47" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, -64)
+
+[node name="wall48" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, -64)
+
+[node name="wall49" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, -64)
+
+[node name="wall50" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, -64)
+
+[node name="wall51" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, -32)
+
+[node name="wall52" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, -32)
+
+[node name="wall53" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, -32)
+
+[node name="wall54" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, -32)
+
+[node name="wall55" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, -32)
+
+[node name="wall56" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, -32)
+
+[node name="wall57" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, -32)
+
+[node name="wall58" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, 0)
+
+[node name="wall59" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, 0)
+
+[node name="wall60" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, 0)
+
+[node name="wall61" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, 0)
+
+[node name="wall62" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, 0)
+
+[node name="wall63" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, 0)
+
+[node name="wall64" parent="." instance=ExtResource("1_g42tb")]
+
+[node name="wall65" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, 32)
+
+[node name="wall66" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, 32)
+
+[node name="wall67" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, 32)
+
+[node name="wall68" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, 32)
+
+[node name="wall69" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, 32)
+
+[node name="wall70" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, 32)
+
+[node name="wall71" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, 32)
+
+[node name="wall72" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, 64)
+
+[node name="wall73" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, 64)
+
+[node name="wall74" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, 64)
+
+[node name="wall75" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, 64)
+
+[node name="wall76" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, 64)
+
+[node name="wall77" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, 64)
+
+[node name="wall78" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, 64)
+
+[node name="wall79" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-96, 96)
+
+[node name="wall80" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-64, 96)
+
+[node name="wall81" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-32, 96)
+
+[node name="wall82" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(32, 96)
+
+[node name="wall83" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(64, 96)
+
+[node name="wall84" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(96, 96)
+
+[node name="wall85" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, 96)
+
+[node name="wall12" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(0, 128)
+
+[node name="wall2" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(-128, 0)
+
+[node name="wall3" parent="." instance=ExtResource("1_g42tb")]
+position = Vector2(128, 0)

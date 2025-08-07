@@ -40,3 +40,7 @@ day 5:
 man, I might be cooked... I started working on the generator, which will be the core of the game loop, then I started redoing the generation again... im going for a room preset aproach. I havent had very much time the last few days and idk if I will be able to finnish it in time. I still need to finish generation,make enemies (wich I have no clue how I will do) make random enemy and loot spawns, make menus for the interactions as well as main menu, and probably a save system. I also need to do art and sound... I think the time I have spent on this so far might go to waste :(
 
 time: 1.1h
+
+day 6: im not going to finish but i dont really care, i might make this a SOM project, but I am tempted to just drop it, I think I want to work on a project that I dont atribute to anything, somthing fresh. today I kept working on map stuff, I made some good progress in the short time I had to work. I need to make doorways between the rooms and fix an issue with the cell filling, but other then that its not looking too awful.
+
+time: 48m

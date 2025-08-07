@@ -1,0 +1,127 @@
+[gd_scene load_steps=2 format=3 uid="uid://dipa3nayw7p15"]
+
+[ext_resource type="PackedScene" uid="uid://wacbdktu856o" path="res://scripts/wall.tscn" id="1_secxv"]
+
+[node name="room 1" type="Node2D"]
+
+[node name="wall7" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, -128)
+
+[node name="wall37" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-32, 0)
+
+[node name="wall39" parent="." instance=ExtResource("1_secxv")]
+
+[node name="wall40" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(32, 0)
+
+[node name="wall41" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(0, 32)
+
+[node name="wall42" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-32, 32)
+
+[node name="wall43" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-32, -32)
+
+[node name="wall44" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(32, -32)
+
+[node name="wall45" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(32, 32)
+
+[node name="wall38" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(0, -32)
+
+[node name="wall8" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, 128)
+
+[node name="wall25" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-96, -128)
+
+[node name="wall26" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-96, 128)
+
+[node name="wall27" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-64, -128)
+
+[node name="wall28" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-64, 128)
+
+[node name="wall29" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-32, -128)
+
+[node name="wall30" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-32, 128)
+
+[node name="wall31" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(32, -128)
+
+[node name="wall32" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(32, 128)
+
+[node name="wall33" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(64, -128)
+
+[node name="wall34" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(64, 128)
+
+[node name="wall35" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(96, -128)
+
+[node name="wall36" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(96, 128)
+
+[node name="wall9" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, -128)
+
+[node name="wall13" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, -96)
+
+[node name="wall14" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, -96)
+
+[node name="wall15" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, -64)
+
+[node name="wall16" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, -64)
+
+[node name="wall17" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, -32)
+
+[node name="wall18" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, -32)
+
+[node name="wall19" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, 32)
+
+[node name="wall20" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, 32)
+
+[node name="wall21" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, 64)
+
+[node name="wall22" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, 64)
+
+[node name="wall23" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, 96)
+
+[node name="wall24" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, 96)
+
+[node name="wall10" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, 128)
+
+[node name="wall11" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(0, -128)
+
+[node name="wall12" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(0, 128)
+
+[node name="wall2" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(-128, 0)
+
+[node name="wall3" parent="." instance=ExtResource("1_secxv")]
+position = Vector2(128, 0)
